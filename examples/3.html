@@ -19,11 +19,10 @@
     </nav>
     <main>
       <h1>Headline1</h1>
-      <a href="#">Ein Link</a>
-      <button>Hallo</button>
+      <a href="#">A Link</a>
+      <button>Hello</button>
 
-      <button>Hallo Button mit sehr sehr sehr viel Text der sinnlos ist</button>
-      <div class="float-root">
+      <div class="float-root mb-20">
         <div
           class="bgcolor-purple w-100 h-100 mb-10 mt-20 mr-10 rounded shadow float-left"
         ></div>
@@ -34,51 +33,45 @@
           class="bgcolor-orange w-100 h-100 mb-10 mt-20 mr-10 rounded shadow float-left"
         ></div>
       </div>
-      <form action="irgendwas.php" action="post">
-        Registrieren Sie sich jetzt!<br />
-        <label for="anrede">Anrede</label>
-        <select id="anrede" name="anrede">
-          <option value="kein">Bitte wählen Sie</option>
-          <option value="f">Frau</option>
-          <option value="m">Herr</option>
-          <option value="d">keine/divers</option>
+      <form action="somewhere.php" action="post">
+        Register now!<br />
+        <label for="salutation">salutation</label>
+        <select id="salutation" name="salutation">
+          <option value="kein">Please choose</option>
+          <option value="f">Mrs.</option>
+          <option value="m">Mr.</option>
+          <option value="d">Mx</option>
         </select>
-        <label for="vorname">Vorname</label>
+        <label for="firstname">first name</label>
         <input
           type="text"
-          id="vorname"
-          name="vorname"
-          placeholder="Hier Dein Vorname"
+          id="firstname"
+          name="firstname"
+          placeholder="your first name"
         />
-        <label for="vorname">Nachname</label>
+        <label for="lastname">last name</label>
         <input
           type="text"
-          id="nachname"
-          name="nachname"
-          placeholder="Hier Dein Nachname"
+          id="lastname"
+          name="lastname"
+          placeholder="your last name"
         />
 
-        <label for="Studiengang">Studiengang</label>
-        <select id="studiengang" name="studiengang">
-          <option value="kein">Bitte wählen Sie</option>
-          <option value="wi">Wirtschaftsinformatik</option>
-          <option value="id">Informationsdesign</option>
+        <label for="selection">Your Food</label>
+        <select id="selection" name="selection">
+          <option value="none">Please choose</option>
+          <option value="veg">vegetarian</option>
+          <option value="meat">meat</option>
         </select>
-        <label for="foto">Foto hochladen</label>
-        <input id="foto" type="file" />
-        <button type="submit" class="bg-primary-alt">
-          Jetzt registrieren!
-        </button>
+        <label for="photo">Upload image</label>
+        <input id="photo" type="file" />
+        <button type="submit" class="bg-primary-alt">Register now!</button>
       </form>
       <div class="box info">Info!</div>
       <div class="box success">Success</div>
       <div class="box alert shadow">Alarm!</div>
       <div class="box question shadow">Question!</div>
       <img src="https://img.riemke.dev/200/200" class="rounded shadow" />
-      <img
-        src="https://img.riemke.dev/200/200"
-        class="img-avatar shadow ml-50"
-      />
     </main>
     <footer>Foooter</footer>
   </body>
