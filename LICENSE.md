@@ -1,5 +1,5 @@
 The riemke.css code (files riemke.scss, riemke.css riemke-dist.css) itself is licensed under Apache License Version 2.0.
-It uses the following fonts and icons with the stated licenses:
+It uses the following fonts and icons with the stated licenses below. Please pay attention to the licenses of these fonts and icons.
 
 ## Source Code Pro Font
 
@@ -194,7 +194,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 Author: xiaochunjimmy
 http://remixicon.com/
 
-### original license text:
+### original license text
 
                                  Apache License
                            Version 2.0, January 2004
