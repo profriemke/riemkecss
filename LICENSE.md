@@ -1,7 +1,7 @@
 The riemke.css code (files riemke.scss, riemke.css riemke-dist.css) itself is licensed under Apache License Version 2.0.
 It uses the following fonts and icons with the stated licenses:
 
-Source Code Pro Font
+## Source Code Pro Font
 
 Copyright 2010-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe in the United States and/or other countries.
 
@@ -11,7 +11,7 @@ This license is copied below, and is also available with a FAQ at: http://script
 
 ---
 
-## SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+### SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 
 PREAMBLE
 The goals of the Open Font License (OFL) are to stimulate worldwide
@@ -96,7 +96,7 @@ DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
-Open Sans Font
+## Open Sans Font
 
 original license text:
 
@@ -104,7 +104,7 @@ Copyright 2020 The Open Sans Project Authors (https://github.com/googlefonts/ope
 
 ---
 
-## SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+### SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 
 PREAMBLE
 The goals of the Open Font License (OFL) are to stimulate worldwide
@@ -189,11 +189,12 @@ DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
-Remix Icon
+## Remix Icon
+
 Author: xiaochunjimmy
 http://remixicon.com/
 
-original license text:
+### original license text:
 
                                  Apache License
                            Version 2.0, January 2004

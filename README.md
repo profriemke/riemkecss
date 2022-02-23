@@ -6,7 +6,7 @@ A simple CSS framework for an easy start of new HTML pages.
 
 ## Using riemke.css
 
-Copy dist folder to your project and include the CSS.
+Copy the dist folder to your project and include the CSS.
 
 ```html
 <link rel="stylesheet" href="dist/riemke.css" />
@@ -93,8 +93,8 @@ Creates round avatar image.
 Sets color and/or background-color. Choose from red, green, blue, yellow, pink, orange, purple.
 
 ```html
-<div class="bgcolor-red">Rounded!</div>
-<div class="bgcolor-green color-white">Rounded!</div>
+<div class="bgcolor-red">red background</div>
+<div class="bgcolor-green color-white">green background,white text</div>
 ```
 
 ## Flex & Float
