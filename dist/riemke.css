@@ -131,6 +131,14 @@ a:hover {
   color: purple;
 }
 
+.color-white {
+  color: white;
+}
+
+.color-black {
+  color: black;
+}
+
 .bgcolor-red {
   background-color: red;
 }
@@ -157,6 +165,14 @@ a:hover {
 
 .bgcolor-purple {
   background-color: purple;
+}
+
+.bgcolor-white {
+  background-color: white;
+}
+
+.bgcolor-black {
+  background-color: black;
 }
 
 .bg-primary-alt {
