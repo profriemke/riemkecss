@@ -275,13 +275,51 @@ h6 {
 // menu   ***************************************
 nav {
   display: block;
-  //width: 100vw;
 }
+
+nav > ul > li > ul {
+  position: absolute;
+  visibility: hidden;
+  padding: 0em;
+}
+nav > ul > li > a:hover {
+  background-color: $bg-primary-lite;
+}
+
+nav > ul > li > ul {
+  visibility: hidden;
+  border-top: 1px;
+  border-top-style: solid;
+  border-color: rgb(122, 121, 121);
+}
+nav > ul > li > ul:hover,
+nav > ul > li:hover > ul {
+  display: block;
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  padding: 0em 0em 0.3em 0em;
+}
+nav > ul > li:hover > ul > a {
+  height: 1.2em;
+  padding: 0.5em 2em 0.7em 2em;
+  background-color: grey;
+  text-decoration: none;
+  color: white;
+  visibility: visible;
+  &hover {
+    background-color: $bg-primary-lite;
+  }
+}
+nav > ul > li > ul > a:hover {
+  background-color: $bg-primary-lite;
+}
+
 nav > ul {
   list-style: none;
   margin: 0;
   padding-left: $pad-left;
-  //width: 100%;
   background: grey;
   display: flex;
   justify-content: flex-start;
