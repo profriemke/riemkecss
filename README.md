@@ -4,9 +4,11 @@ A simple CSS framework for an easy start of new HTML pages.
 
 ![Screenshot of an example](/examples/1.png?raw=true "example")
 
+It is not a competitor to other "big" CSS frameworks, and it is not desigend to be a competitor. It has no special special features or does everythin better. But if you find it useful for your project - feel free to use it.
+
 ## Using riemke.css
 
-Copy the dist folder to your project and include the CSS.
+Copy the dist folder to your project and include the CSS in the HTML document.
 
 ```html
 <link rel="stylesheet" href="dist/riemke.css" />
@@ -28,7 +30,7 @@ You use the framework by adding the desired style classes to your element.
 
 ## Create a Menu
 
-Use `<nav>` with an unordered list. Active menu items get the active class.
+Use `<nav>` with an unordered list. The active menu items gets the active class.
 
 ```html
 <nav>
@@ -36,6 +38,35 @@ Use `<nav>` with an unordered list. Active menu items get the active class.
     <li><a href="#" class="active">Home</a></li>
     <li><a href="#">Products</a></li>
     <li><a href="#">Services</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Imprint</a></li>
+  </ul>
+</nav>
+```
+
+## Create a Drop-Down Menu
+
+```html
+<nav>
+  <ul>
+    <li><a href="#" class="active">Home</a></li>
+    <li>
+      <a href="#">Products</a>
+      <ul class="drop">
+        <a href="#" class="active">Bananas</a>
+        <a href="#" class="active">Strawberries</a>
+        <a href="#" class="active">Apples</a>
+      </ul>
+    </li>
+
+    <li>
+      <a href="#">Services</a>
+      <ul class="drop">
+        <a href="#" class="active">Thinking</a>
+        <a href="#" class="active">Making</a>
+        <a href="#" class="active">Talking</a>
+      </ul>
+    </li>
     <li><a href="#">About</a></li>
     <li><a href="#">Imprint</a></li>
   </ul>
