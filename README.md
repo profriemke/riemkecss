@@ -4,11 +4,11 @@ A simple CSS framework for an easy start of new HTML pages.
 
 ![Screenshot of an example](/examples/1.png?raw=true "example")
 
-It is not a competitor to other "big" CSS frameworks, and it is not desigend to be a competitor. It has no special special features or does everythin better. But if you find it useful for your project - feel free to use it.
+It's not a competitor to other "big" CSS frameworks, and it's not desigend to be a competitor. It has neither special features nor does everything better. But if you find it useful for your project and helps you further - feel free to use it.
 
 ## Using riemke.css
 
-Copy the dist folder to your project and include the CSS in the HTML document.
+Copy the dist folder to your project and include the CSS in the HTML document. riemke.css uses the Open Sans Font, the Source Code Pro Font and Remix Icons. Please have also a glimpse into the licenses of these items (see license file).
 
 ```html
 <link rel="stylesheet" href="dist/riemke.css" />
@@ -130,4 +130,18 @@ Sets color and/or background-color. Choose from red, green, blue, yellow, pink, 
 
 ## Flex & Float
 
-Classes for flex & float are also included. Documentation is upcoming.
+Classes for flex & float are also included.
+
+```html
+<div class="float-root">
+  <div class="float-left"></div>
+  <div class="float-left"></div>
+</div>
+```
+
+```html
+<div class="flex-row">
+  <div class="w-100 h-100 bgcolor-red"></div>
+  <div class="w-100 h-100 bgcolor-green"></div>
+</div>
+```
