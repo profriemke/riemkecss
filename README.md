@@ -73,6 +73,10 @@ Use `<nav>` with an unordered list. The active menu items gets the active class.
 </nav>
 ```
 
+## Responsive Menus
+
+The only the simple menu is responsive.
+
 ## Styling Forms
 
 Forms are automatically styled.

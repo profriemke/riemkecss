@@ -1,9 +1,12 @@
 $sides: top, right, bottom, left;
-$margins: 1, 2, 3, 4, 5, 10, 15, 20, 30, 40, 50, 80;
-$paddings: 1, 2, 3, 4, 5, 10, 15, 20, 30, 40, 50, 80;
-$sizes: 5, 10, 15, 20, 50, 80, 100, 150, 200, 250, 300, 400, 500, 600, 700, 800,
-  900, 1000;
-$colors: red, green, blue, yellow, pink, orange, purple, white, black;
+$margins: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 19, 20,
+  21, 22, 23, 24, 25, 30, 35, 40, 50, 60, 70, 80, 90, 100;
+$paddings: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 19, 20,
+  21, 22, 23, 24, 25, 30, 35, 40, 50, 60, 70, 80, 90, 100;
+$sizes: 5, 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200, 250, 300,
+  400, 500, 600, 700, 800, 900, 1000;
+$colors: red, green, blue, yellow, pink, orange, purple, white, black, brown,
+  deeppink;
 $bg-primary: #0c55b4;
 $bg-primary-lite: #397bd1;
 $bg-primary-alt: #99b033;
@@ -11,18 +14,19 @@ $bg-primary-alt-lite: #b2c26e;
 $bg-grey: rgb(170, 169, 169);
 $pad-left: 5em;
 $border-radius: 5px;
+$boldFont: OpenSansRegular;
+$normalFont: OpenSans;
+$codeFont: Code;
 
 // Fonts ********************************************
 @font-face {
   font-family: OpenSans;
   src: url(./OpenSans-Light.ttf);
 }
-
 @font-face {
   font-family: OpenSansRegular;
   src: url(./OpenSans-Regular.ttf);
 }
-
 @font-face {
   font-family: Code;
   src: url(./SourceCodePro-Medium.ttf);
@@ -36,21 +40,20 @@ $border-radius: 5px;
 
 body {
   width: 100%;
-  font-family: OpenSans;
+  font-family: $normalFont;
   font-size: 14pt;
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
 }
 main {
-  padding: 0 $pad-left 0 $pad-left;
+  padding: 0em $pad-left 0em $pad-left;
   display: block;
   min-height: 80vh;
 }
 footer {
-  margin: 2em 0 0 0;
+  margin: 2em 0em 0em 0em;
   display: block;
-  //width: calc(100vw - (2 * $pad-left));
   height: 5em;
   background: grey;
   padding: 1em $pad-left 0 $pad-left;
@@ -62,6 +65,9 @@ footer {
 }
 a:hover {
   color: $bg-primary-lite;
+}
+code {
+  font-family: $codeFont;
 }
 // colors ********************************************
 @each $color in $colors {
@@ -127,7 +133,6 @@ a:hover {
     margin: #{$margin}px;
   }
 }
-
 @each $side in $sides {
   @each $padding in $paddings {
     .p#{str-slice($side, 1,1)}-#{$padding} {
@@ -167,7 +172,7 @@ button,
   text-decoration: none;
   margin: 4px 2px;
   min-width: 10em;
-  font-family: OpenSansRegular;
+  font-family: $boldFont;
   cursor: pointer;
   font-size: 1em;
   border-radius: $border-radius;
@@ -190,7 +195,7 @@ select {
   box-sizing: border-box;
   border: 1px solid $bg-grey;
   border-radius: $border-radius;
-  font-family: OpenSans;
+  font-family: $boldFont;
   font-size: 1em;
   outline: none;
   &:focus {
@@ -210,15 +215,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: OpenSansRegular;
+  font-family: $boldFont;
 }
-
+// notifications  *********************************
 .box {
   margin: 1.3em 0em 1.3em 0em;
   padding: 1em;
   padding-left: 5em;
   border-radius: $border-radius;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .alert {
   background-color: #ffbbbf;
@@ -275,6 +280,7 @@ h6 {
 // menu   ***************************************
 nav {
   display: block;
+  font-family: $boldFont;
 }
 
 nav > ul > li > ul {
@@ -329,7 +335,7 @@ nav > ul > li > a {
   display: block;
   padding: 1em;
   color: white;
-  font-family: OpenSans;
+  font-family: $boldFont;
   &:link {
     color: white;
   }
